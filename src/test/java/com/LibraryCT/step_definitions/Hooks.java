@@ -2,6 +2,7 @@ package com.LibraryCT.step_definitions;
 
 import com.LibraryCT.utilities.DB_Util;
 import com.LibraryCT.utilities.Driver;
+import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import org.junit.After;
 import org.junit.Before;
@@ -10,7 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
-   /* @Before
+  /*  @BeforeAll
     public void setupDataBase(){
         String url ="jdbc:mysql://34.230.35.214:3306/library2";
         String username ="library2_client";
@@ -19,7 +20,9 @@ public class Hooks {
         DB_Util.createConnection(url,username,password);
     }
 
-    */
+   */
+
+
 
 
     @After
