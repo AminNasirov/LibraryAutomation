@@ -5,12 +5,12 @@ Feature: As a data consumer, I want the user information are
   Background:
     Given Establish the database connection
 
-  @wip
+
   Scenario: verify users has unique IDs
     When Execute query to get all IDs from users
     Then verify all users has unique ID
 
-  @wip
+
   Scenario: verify users table columns
     When Execute query to get all columns
     Then verify the below columns are listed in result

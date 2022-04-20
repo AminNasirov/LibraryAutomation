@@ -8,9 +8,9 @@ import org.junit.Assert;
 
 import java.util.List;
 
-public class US_01_step_definitions {
+public class US01 {
 
-    @Given("Establish the database connection")
+   @Given("Establish the database connection")
     public void establishTheDatabaseConnection() {
 
         String url ="jdbc:mysql://34.230.35.214:3306/library2";
@@ -20,6 +20,12 @@ public class US_01_step_definitions {
         DB_Util.createConnection(url,username,password);
 
     }
+
+
+
+
+
+
 
 
 
