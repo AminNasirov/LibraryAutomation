@@ -30,6 +30,9 @@ public class BookPage {
     @FindBy(xpath = "(//table/tbody//td[6])[1]")
     public WebElement year;
 
+    @FindBy(id = "book_categories")
+    public WebElement mainCategoryElement;
+
     public void clickButton(String stringText){
         WebElement button = Driver.getDriver().findElement(By.xpath("//span[.='"+stringText+"']"));
         button.click();

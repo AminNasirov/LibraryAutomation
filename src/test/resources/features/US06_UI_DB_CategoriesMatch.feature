@@ -1,4 +1,4 @@
-@us06
+@us06 @smoke
 Feature: As a data consumer, I want UI and DB book categories are match.
 
   @db @ui @wip

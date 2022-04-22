@@ -1,4 +1,4 @@
-@us04
+@us04 @smoke
 Feature: As a librarian, I want to know all the students who borrowed books
 
   @db

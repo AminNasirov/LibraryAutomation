@@ -1,4 +1,4 @@
-@us01
+@us01 @smoke
 Feature: As a data consumer, I want the user information are
   stored in MySQL DB correctly in users table
 

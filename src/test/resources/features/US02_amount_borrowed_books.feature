@@ -1,4 +1,4 @@
-@us02
+@us02 @smoke
 Feature:
   As a librarian, I want to know the amount of borrowed books
 

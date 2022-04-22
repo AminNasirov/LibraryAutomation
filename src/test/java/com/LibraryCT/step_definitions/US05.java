@@ -23,7 +23,7 @@ public class US05 {
     public void i_open_a_book_called(String string) {
 
         bookPage.search.sendKeys(string+ Keys.ENTER);
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitFor(2);
 
     }
     @When("I execute query to get the book information from books table")

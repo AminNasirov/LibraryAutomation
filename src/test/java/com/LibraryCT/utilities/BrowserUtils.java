@@ -511,6 +511,14 @@ for given duration
     }
 
 
+    public static List<String> getAllSelectOptions(WebElement element){
+
+        Select select=new Select(element);
+
+        return getElementsText(select.getOptions());
+    }
+
+
 
 
 
