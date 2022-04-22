@@ -150,6 +150,11 @@ for given duration
         action.moveToElement(element).pause(2000).perform();
     }
 
+
+
+
+
+
     /**
      * return a list of string from a list of elements
      *

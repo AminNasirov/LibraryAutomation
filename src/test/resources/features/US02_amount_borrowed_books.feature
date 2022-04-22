@@ -7,6 +7,6 @@ Feature:
 
 @db @ui
   Scenario: verify the amount of borrowed books
-    Given I am in the homepage of the library app
+    Given I am in the homepage of the library app as a librarian
     When I take borrowed books number
     Then borrowed books number information must match with DB

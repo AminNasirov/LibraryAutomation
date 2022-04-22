@@ -17,7 +17,7 @@ public class US02 {
     LoginPage loginPage = new LoginPage();
 
 
-    @Given("I am in the homepage of the library app")
+    @Given("I am in the homepage of the library app as a librarian")
     public void i_am_in_the_homepage_of_the_library_app() {
 
          loginPage.loginAsLibrarian();
