@@ -13,21 +13,9 @@ public class US01 {
    @Given("Establish the database connection")
     public void establishTheDatabaseConnection() {
 
-        String url ="jdbc:mysql://34.230.35.214:3306/library2";
-        String username ="library2_client";
-        String password = "6s2LQQTjBcGFfDhY";
-
-        DB_Util.createConnection(url,username,password);
+       System.out.println("Database Connection is done inside the Hooks class");
 
     }
-
-
-
-
-
-
-
-
 
 
     @When("Execute query to get all IDs from users")

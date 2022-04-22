@@ -20,8 +20,6 @@ public class US02 {
     @Given("I am in the homepage of the library app")
     public void i_am_in_the_homepage_of_the_library_app() {
 
-        Driver.getDriver().get(ConfigurationReader.getProperty("LibraryCTURL"));
-
          loginPage.loginAsLibrarian();
 
     }
