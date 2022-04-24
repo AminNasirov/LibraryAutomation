@@ -1,4 +1,4 @@
-@us05 @smoke
+@us05 @smoke @regression
 Feature: As a data consumer, I want UI and DB book information are match
 
   @db @ui

@@ -1,4 +1,4 @@
-@us04 @smoke
+@us04 @smoke @regression
 Feature: As a librarian, I want to know all the students who borrowed books
 
   @db
